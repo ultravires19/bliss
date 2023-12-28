@@ -1,0 +1,36 @@
+* {
+  border: dotted;
+  border-color: orange;
+}
+
+.item {
+  max-height: auto;
+  padding: 10px;
+}
+
+.gridrow {
+  display: grid;
+  grid-template-columns: 3fr 3fr 1fr 3fr 1fr 3fr 1fr 2fr 2fr;
+
+}
+
+.lineItem {
+  color: blue;
+}
+
+.qtyList {
+  width: 40px;
+}
+
+.qtyHome {
+  width: 40px;
+}
+
+.button {
+  color: blue;
+  padding: 0px;
+  max-width: 2em;
+  max-height: 2em;
+}
+
+.button:hover {}
